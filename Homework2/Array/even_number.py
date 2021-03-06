@@ -15,6 +15,8 @@ print(storage)
 for x in storage: 
     if (x % 2 == 0):
         print("even number is " + str(x))
+    elif (x == 2):
+        print("even prime number is " + str(x))
     elif (x < 0): 
         print(str(x) + " is negative")
         storage[count] = 0
